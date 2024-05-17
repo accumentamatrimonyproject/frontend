@@ -20,7 +20,7 @@ function Login(){
       const emailerror=document.getElementById("emailpara")
       const emailaddress2=document.getElementById("email2")
       const emailerror2=document.getElementById("emailpara2")
-      
+      console.log("something")
       
       
       function generateOTP() {
