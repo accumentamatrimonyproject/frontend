@@ -120,10 +120,10 @@ const onSignupClick=()=>{
           <div className="signup-link">Not a member? <a href="">Signup now</a></div>
           <div style={{display: "flex", flexDirection: "column", justifyContent: "center",alignItems: "center" }}>
             <p style={{marginTop: "20px"}} >or signup with</p>
-            <div style={{display: "flex"}} >
-            <a href="#" className="fa fa-facebook" ></a>
-            <a href="#" className="fa fa-google"></a>
-            <a href="#" className="fa fa-instagram"></a>
+            <div style={{display:"flex",justifyContent:"space-between",width:"150px"}}>
+            <a href="#" style={{textDecoration:"none"}} ><i className="fab fa-facebook" style={{height:"50px",width:"50px",textDecoration:"none"}}></i></a>
+            <a href="#" style={{textDecoration:"none"}} ><i className="fab fa-google" style={{height:"50px",width:"50px",textDecoration:"none"}}></i></a>
+            <a href="#" style={{textDecoration:"none"}} ><i className="fab fa-instagram"></i></a>
         </div>
         </div>
         </form>
@@ -157,9 +157,9 @@ const onSignupClick=()=>{
           <div style={{display: "flex", flexDirection: "column", justifyContent: "center" ,alignItems: "center" }}>
             <p style={{marginTop: "20px"}} >or signup with</p>
             <div style={{display: "flex"}} >
-            <a href="#" className="fa fa-facebook" ></a>
-            <a href="#" className="fa fa-google"></a>
-            <a href="#" className="fa fa-instagram"></a>
+            <a href="#" className="fas fa-facebook" ></a>
+            <a href="#" className="fas fa-google"></a>
+            <a href="#" className="fas fa-instagram"></a>
         </div>
         </div>
         </form>

@@ -53,12 +53,16 @@ function UserComponent() {
         }
         
     }
+    const onAll=()=>{
+       setUsersData(copyList) 
+    }
   return (
-    <div>
-    <div>
+    <div className='list-cont'>
+    <div style={{display:"flex"}}>
         <input type='search' onChange={onName} value={name} placeholder='search by name'/>
         <button type="button" onClick={onSearch}>search</button>
     </div>
+    <button onClick={onAll}>All Users</button>
     <h1 className="text-center"> All Users List</h1>
     <table className="table table-striped">
         <thead>
